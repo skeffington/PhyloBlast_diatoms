@@ -19,11 +19,13 @@ perl mmetspblast3.pl [input fasta] [input taxa: MMETSP] [input taxa: taxonomy] [
 ```
 Where the input files are as follows:
 
-Input fasta: The sequences you want to blast
-Input taxa MMETSP: The file '
+Input fasta: The sequences you want to blast against the MMETSP transcriptomes. All sequnces should have unique names.
+There are three files that encode the taxonomy information for the transcriptomes:
+Input taxa MMETSP: The file 'MMETSP_TAX3'
+Input taxa: taxonomy: The file 'tax_report_3.txt'
+Input phyla name to number: The file 'phylalist.txt'
 
 The number of cores in hard coded in the blast command in the main script. Please alter as neccessary.
-
 
 ```{}
 	
@@ -31,5 +33,6 @@ perl -S mmetsp_evoprot.pl [top hits out] [fasta of queries] [output prefix]
 
 ```
 
+This script takes the '_tophits' output of the previous script and outputs a summary.
 
 
