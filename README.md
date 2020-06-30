@@ -10,9 +10,26 @@ Assuming you have access to a Linux machine or server, this is how to proceed.
 1. Download the version of the MMETSP transcriptomes that have been cleaned of contaminants.
 2. Make blast databases for all transcriptomes
 3. Set BLASTDB and PATH variables to the location of the databases
-4. Run the scripts as follows described below. 
+4. Run the scripts as described below:
+
+The first script runs the blast searches and collates the results. The best hit per transcriptome is provided and a phylogenetic summary of the results.
+
+```{}
+perl mmetspblast3.pl [input fasta] [input taxa: MMETSP] [input taxa: taxonomy] [input: phyla name to number] [evalue threshold] [qcov cutoff] [output prefix]
+```
+Where the input files are as follows:
+
+Input fasta: The sequences you want to blast
+Input taxa MMETSP: The file '
+
+The number of cores in hard coded in the blast command in the main script. Please alter as neccessary.
 
 
+```{}
+	
+perl -S mmetsp_evoprot.pl [top hits out] [fasta of queries] [output prefix]
+
+```
 
 
 
