@@ -1,0 +1,46 @@
+Bacillariophyta	2836
+Dinophyceae	2864
+Chlorophyta	3041
+Ciliophora	5878
+Cercozoa	136419
+Pyrenomonadales	589342
+Discosea	555280
+Cryptomonadales	589350
+Pelagophyceae	35675
+Chrysophyceae	2825
+Dictyochophyceae	39119
+Prymnesiales	73028
+Isochrysidales	73020
+Labyrinthulomycetes	35131
+Pavlovales	73026
+Foraminifera	29178
+Bangiophyceae	2797
+Raphidophyceae	38410
+Phaeocystales	418919
+Coccolithales	418917
+Bicosoecida	33651
+Tubulinea	555369
+Compsopogonophyceae	930023
+Chromerida	877183
+Bolidophyceae	91989
+Perkinsea	27997
+Pinguiophyceae	157124
+Kinetoplastida	5653
+unclassified Heterolobosea	63593
+Stereomyxa	1078863
+Stylonematophyceae	446134
+Rhodellophyceae	661027
+Gloeochaetales	38262
+Fungi	4751
+Choanoflagellida	28009
+uncultured eukaryote	100272
+Euglenida	3035
+Apicomplexa	5794
+PX clade	569578
+Palpitomonas	759891
+Synurophyceae	33859
+Coccosphaerales	73027
+Haptophyta incertae sedis	1538618
+Synchromophyceae	557229
+Cyanoptyche	77921
+Alphaproteobacteria	28211
